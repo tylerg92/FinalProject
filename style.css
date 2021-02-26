@@ -1,0 +1,74 @@
+body{
+    background-color: #8a8e94;
+    margin: -20px 350px;
+}
+
+.content{
+    margin: 20px 20px;
+    width: 1100px;
+    height: 870px;
+    background-color: #ccc8c8;
+}
+.mainPost{
+    background-color: white;
+    padding: 0px 60px 10px 0px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+h1{
+    font-size: 40px;
+    padding-left: 40px;
+}
+#user{
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: italic;
+}
+.newPost{
+    width: 1100px;
+    height: 590px;
+    padding-bottom: 10px;
+    background-color: #dedede;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.input{
+    background: white;
+    background-image: linear-gradient(white, white, rgb(221, 219, 219));
+    width: 1100px;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#display{
+    width: 150px;
+    margin: 40px -10px 40px -80px;
+}
+#comment{
+    width: 710px;
+    margin: 40px -60px 40px -80px;
+}
+#submitText{
+    margin: 40px -50px 0px 0px;
+    font-size: 30px;
+    color: #9fc8d4;
+}
+
+
+.userPost{
+
+}
+.firstP{
+
+}
+.secondP{
+
+}
+.edit{
+
+}
+.delete{
+
+}
+.newSubmit{
+
+}
