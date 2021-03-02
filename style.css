@@ -28,7 +28,8 @@ h1{
     padding-bottom: 10px;
     background-color: #dedede;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    
 }
 
 .input{
@@ -55,20 +56,61 @@ h1{
 
 
 .userPost{
-
+margin: 10px;
+background-color: white;
+width: 1050px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#icon{
+    align-self: center;
+    background-color: white;
+    width: 80px;
+    margin-left: 20px;
 }
 .firstP{
-
+    align-self: baseline;
+    margin: 20px -135px 0px 0px;
+    width: 110px;
+    font-size: 20px;
+    color: grey;
 }
 .secondP{
-
+    width: 710px;
+    margin: 25px 40px 0px 0px;
+    height: 70px;
+    font-size: 30px;
 }
 .edit{
-
+    font-size: 20px;
+    align-self: end;
+    margin-top: 10px;
+    padding: 5px;
+    color: #9fc8d4;
 }
 .delete{
-
+    font-size: 20px;
+    align-self: end;
+    margin-top: 10px;
+    padding: 5px;
+    color: #9fc8d4;
 }
 .newSubmit{
-
+    align-self: flex-end;
+    display: flex;
+    text-align: left;
+    margin: 10px -170px 0px -850px;
+    display: none;
+}
+#newComment{
+    margin: 0px 20px 10px -50px;
+    width: 620px;
+    height: 20px;
+}
+#newButton{
+    text-align: left;
+    margin: 0px 400px 0px 0px;
 }
